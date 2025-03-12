@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\repos\\DatingApp\\api\\API.csproj": {}
+    "H:\\repos\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "H:\\repos\\DatingApp\\api\\API.csproj": {
+    "H:\\repos\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\repos\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "H:\\repos\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "H:\\repos\\DatingApp\\api\\API.csproj",
+        "projectPath": "H:\\repos\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
-        "outputPath": "H:\\repos\\DatingApp\\api\\obj\\",
+        "outputPath": "H:\\repos\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.4, )"
